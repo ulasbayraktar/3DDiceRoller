@@ -16,6 +16,11 @@
 <script type="text/javascript" src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
 <script type="text/javascript" src="./libs/jquery.ui.touch-punch.min.js"></script>
 <script type="text/javascript" src="./libs/spectrum.js"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap" rel="stylesheet">
+
 </head>
 <body>
 	<input type="hidden" id="parent_notation" value="">
@@ -127,7 +132,6 @@
 		<div id="canvas"></div>
 		<div id="info_div" style="display: none">
 			<div class="center_field">
-				<div id="label"></div>
 			</div>
 		</div>
 	</div>
@@ -138,9 +142,8 @@
 			<textarea id="teal-chat-input"></textarea>
 		</div>
 
-		<div id="teal-userlist" style="display: none;">
-			<h2 id="roomname"></h2>
-			<ul id="users"></ul>
+		<div id="teal-userlist">
+			<div id="label" style="text-align: center;"></div>
 		</div>
 	</div>
 
